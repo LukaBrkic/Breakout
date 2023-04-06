@@ -72,103 +72,87 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\</IntDir>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonFont>true</Allegro_AddonFont>
-    <Allegro_AddonImage>
-    </Allegro_AddonImage>
-    <Allegro_AddonPrimitives>
-    </Allegro_AddonPrimitives>
-    <Allegro_AddonAudio>
-    </Allegro_AddonAudio>
-    <Allegro_AddonAcodec>
-    </Allegro_AddonAcodec>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
     <Allegro_AddonPhysfs>
     </Allegro_AddonPhysfs>
     <Allegro_AddonDialog>
     </Allegro_AddonDialog>
     <Allegro_AddonMemfile>
     </Allegro_AddonMemfile>
-    <Allegro_AddonColor>
-    </Allegro_AddonColor>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
     <Allegro_AddonVideo>
     </Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\</IntDir>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonFont>true</Allegro_AddonFont>
-    <Allegro_AddonImage>
-    </Allegro_AddonImage>
-    <Allegro_AddonPrimitives>
-    </Allegro_AddonPrimitives>
-    <Allegro_AddonAudio>
-    </Allegro_AddonAudio>
-    <Allegro_AddonAcodec>
-    </Allegro_AddonAcodec>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
     <Allegro_AddonPhysfs>
     </Allegro_AddonPhysfs>
     <Allegro_AddonDialog>
     </Allegro_AddonDialog>
     <Allegro_AddonMemfile>
     </Allegro_AddonMemfile>
-    <Allegro_AddonColor>
-    </Allegro_AddonColor>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
     <Allegro_AddonVideo>
     </Allegro_AddonVideo>
+    <Allegro_LibraryType>StaticMonolithRelease</Allegro_LibraryType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\</IntDir>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonFont>true</Allegro_AddonFont>
-    <Allegro_AddonImage>
-    </Allegro_AddonImage>
-    <Allegro_AddonPrimitives>
-    </Allegro_AddonPrimitives>
-    <Allegro_AddonAudio>
-    </Allegro_AddonAudio>
-    <Allegro_AddonAcodec>
-    </Allegro_AddonAcodec>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
     <Allegro_AddonPhysfs>
     </Allegro_AddonPhysfs>
     <Allegro_AddonDialog>
     </Allegro_AddonDialog>
     <Allegro_AddonMemfile>
     </Allegro_AddonMemfile>
-    <Allegro_AddonColor>
-    </Allegro_AddonColor>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
     <Allegro_AddonVideo>
     </Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)bin\intermediates\</IntDir>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonFont>true</Allegro_AddonFont>
-    <Allegro_AddonImage>
-    </Allegro_AddonImage>
-    <Allegro_AddonPrimitives>
-    </Allegro_AddonPrimitives>
-    <Allegro_AddonAudio>
-    </Allegro_AddonAudio>
-    <Allegro_AddonAcodec>
-    </Allegro_AddonAcodec>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
     <Allegro_AddonPhysfs>
     </Allegro_AddonPhysfs>
     <Allegro_AddonDialog>
     </Allegro_AddonDialog>
     <Allegro_AddonMemfile>
     </Allegro_AddonMemfile>
-    <Allegro_AddonColor>
-    </Allegro_AddonColor>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
     <Allegro_AddonVideo>
     </Allegro_AddonVideo>
+    <Allegro_LibraryType>StaticMonolithRelease</Allegro_LibraryType>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -193,7 +177,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)StaticLibTest\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
     </ClCompile>
@@ -215,7 +199,7 @@
       <LanguageStandard_C>stdc11</LanguageStandard_C>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -227,7 +211,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)StaticLibTest\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
     </ClCompile>
@@ -239,26 +223,67 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StaticLibTest\StaticLibTest.vcxproj">
-      <Project>{d10d66af-9f73-4456-9c3f-18cec71a3193}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="src\Cannon.cpp" />
+    <ClCompile Include="src\Level.cpp" />
+    <ClCompile Include="src\HUD.cpp" />
+    <ClCompile Include="src\CollidableEntity.cpp" />
+    <ClCompile Include="src\Paddle.cpp" />
+    <ClCompile Include="src\Ball.cpp" />
+    <ClCompile Include="src\Breakout.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\tinyxml2.cpp" />
+    <ClCompile Include="src\Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="inc\Brick.h" />
+    <ClInclude Include="inc\Cannon.h" />
+    <ClInclude Include="inc\HUD.h" />
+    <ClInclude Include="inc\CollidableEntity.h" />
+    <ClInclude Include="inc\Ball.h" />
+    <ClInclude Include="inc\Breakout.h" />
+    <ClInclude Include="inc\Sound.h" />
+    <ClInclude Include="inc\tinyxml2.h" />
+    <ClInclude Include="inc\Util.h" />
+    <ClInclude Include="inc\Paddle.h" />
+    <ClInclude Include="inc\Level.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="allegro.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="assets\levels\level1.xml" />
+    <Xml Include="assets\levels\level2.xml" />
+    <Xml Include="assets\levels\level3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\spritesheets\ball.png" />
+    <Image Include="assets\spritesheets\bricks.png" />
+    <Image Include="assets\spritesheets\cannonShot.png" />
+    <Image Include="assets\spritesheets\emptyHeart.png" />
+    <Image Include="assets\spritesheets\fullHeart.png" />
+    <Image Include="assets\spritesheets\paddle.png" />
+    <Image Include="assets\textures\level1Bg.png" />
+    <Image Include="assets\textures\level2Bg.png" />
+    <Image Include="assets\textures\level3Bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\MTFChunkie.ttf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\AllegroDeps.1.13.0\build\native\AllegroDeps.targets" Condition="Exists('..\packages\AllegroDeps.1.13.0\build\native\AllegroDeps.targets')" />
-    <Import Project="..\packages\Allegro.5.2.8\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.8\build\native\Allegro.targets')" />
+    <Import Project="..\packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets" Condition="Exists('..\packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets')" />
+    <Import Project="..\packages\Allegro.5.2.6\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.6\build\native\Allegro.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\AllegroDeps.1.13.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AllegroDeps.1.13.0\build\native\AllegroDeps.targets'))" />
-    <Error Condition="!Exists('..\packages\Allegro.5.2.8\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.8\build\native\Allegro.targets'))" />
+    <Error Condition="!Exists('..\packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('..\packages\Allegro.5.2.6\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.6\build\native\Allegro.targets'))" />
   </Target>
 </Project>
